@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" preserveAspectRatio="xMaxYMid meet">
+  <circle cx="560" cy="130" r="150" fill="#fff" opacity="0.07"/>
+  <circle cx="650" cy="220" r="80" fill="#fff" opacity="0.06"/>
+  <!-- whiteboard -->
+  <g>
+    <rect x="360" y="52" width="260" height="164" rx="12" fill="#fff" opacity="0.94"/>
+    <rect x="360" y="52" width="260" height="164" rx="12" fill="none" stroke="#0a2a66" stroke-opacity="0.35" stroke-width="6"/>
+    <!-- bar chart -->
+    <rect x="392" y="150" width="28" height="42" rx="4" fill="#7fb0ff"/><rect x="432" y="124" width="28" height="68" rx="4" fill="#2f6fe0"/>
+    <rect x="472" y="98" width="28" height="94" rx="4" fill="#f0b429"/><rect x="512" y="116" width="28" height="76" rx="4" fill="#2f6fe0"/>
+    <!-- text lines -->
+    <rect x="392" y="76" width="120" height="8" rx="4" fill="#0a2a66" opacity="0.5"/><rect x="392" y="92" width="80" height="6" rx="3" fill="#0a2a66" opacity="0.25"/>
+    <!-- check -->
+    <circle cx="582" cy="96" r="20" fill="#e3f6e9"/><path d="M572 96 l8 8 14 -16" fill="none" stroke="#15803d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- stand -->
+    <rect x="474" y="216" width="12" height="26" fill="#fff" opacity="0.7"/><rect x="440" y="240" width="80" height="8" rx="4" fill="#fff" opacity="0.7"/>
+  </g>
+  <!-- pointer -->
+  <g transform="rotate(-30 330 190)"><rect x="320" y="120" width="8" height="130" rx="4" fill="#f0b429"/><rect x="320" y="120" width="8" height="18" rx="4" fill="#fff" opacity="0.9"/></g>
+  <!-- books and apple -->
+  <g>
+    <rect x="236" y="206" width="110" height="22" rx="4" fill="#fff" opacity="0.88"/><rect x="246" y="184" width="92" height="22" rx="4" fill="#7fb0ff"/>
+    <circle cx="292" cy="170" r="16" fill="#ef4444"/><path d="M292 154 q4 -12 14 -12" fill="none" stroke="#15803d" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="#f0b429"><path d="M330 36 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z" opacity="0.9"/><path d="M660 80 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z" opacity="0.8"/></g>
+</svg>

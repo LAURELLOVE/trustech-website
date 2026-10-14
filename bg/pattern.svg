@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">
+  <g fill="none" stroke="#0b3c8c" stroke-opacity="0.075" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- graduation cap -->
+    <g transform="translate(34 40)"><polygon points="0,14 26,0 52,14 26,28"/><path d="M12 22 v14 q14 8 28 0 v-14"/><path d="M52 14 v18"/></g>
+    <!-- book -->
+    <g transform="translate(150 28) rotate(-10)"><rect x="0" y="0" width="38" height="46" rx="4"/><path d="M8 0 v46 M16 14 h14 M16 22 h14"/></g>
+    <!-- laptop -->
+    <g transform="translate(40 150)"><rect x="4" y="0" width="46" height="30" rx="3"/><path d="M0 36 h54 l-5 -6 H5 z"/></g>
+    <!-- atom -->
+    <g transform="translate(170 150)"><ellipse cx="22" cy="22" rx="24" ry="9"/><ellipse cx="22" cy="22" rx="24" ry="9" transform="rotate(60 22 22)"/><ellipse cx="22" cy="22" rx="24" ry="9" transform="rotate(120 22 22)"/><circle cx="22" cy="22" r="3" fill="#0b3c8c" fill-opacity="0.075"/></g>
+    <!-- pencil -->
+    <g transform="translate(112 100) rotate(40)"><rect x="0" y="0" width="12" height="46" rx="2"/><path d="M0 46 l6 12 l6 -12"/><path d="M0 10 h12"/></g>
+    <!-- network -->
+    <g transform="translate(205 70)"><circle cx="0" cy="0" r="4"/><circle cx="26" cy="-10" r="4"/><circle cx="34" cy="20" r="4"/><path d="M4 -1 L22 -9 M28 -6 L33 16 M3 3 L30 19"/></g>
+    <!-- code brackets -->
+    <g transform="translate(110 210)"><path d="M10 0 l-12 12 l12 12 M30 0 l12 12 l-12 12 M24 -4 l-8 32"/></g>
+  </g>
+</svg>

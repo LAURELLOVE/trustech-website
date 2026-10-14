@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.16"/>
+    </linearGradient>
+    <pattern id="win" width="22" height="26" patternUnits="userSpaceOnUse">
+      <rect x="5" y="6" width="9" height="12" rx="1.5" fill="#f6c453" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- soft light circles -->
+  <circle cx="1320" cy="150" r="260" fill="#fff" opacity="0.05"/>
+  <circle cx="230" cy="110" r="190" fill="#fff" opacity="0.05"/>
+  <circle cx="900" cy="330" r="120" fill="#fff" opacity="0.04"/>
+  <rect x="0" y="420" width="1600" height="480" fill="url(#glow)"/>
+
+  <!-- network constellation, top right -->
+  <g stroke="#fff" stroke-opacity="0.28" stroke-width="1.4" fill="none">
+    <polyline points="1180,120 1260,80 1350,130 1440,70 1520,140"/>
+    <polyline points="1260,80 1280,190 1350,130"/>
+    <polyline points="1280,190 1400,230 1440,70"/>
+  </g>
+  <g fill="#fff" fill-opacity="0.55">
+    <circle cx="1180" cy="120" r="5"/><circle cx="1260" cy="80" r="6"/><circle cx="1350" cy="130" r="5"/>
+    <circle cx="1440" cy="70" r="6"/><circle cx="1520" cy="140" r="5"/><circle cx="1280" cy="190" r="5"/><circle cx="1400" cy="230" r="5"/>
+  </g>
+
+  <!-- floating mortarboard -->
+  <g transform="translate(260 230) rotate(-8)" opacity="0.22" fill="#fff">
+    <polygon points="-110,0 0,-52 110,0 0,52"/>
+    <path d="M-62 28 v42 q62 34 124 0 v-42 L0 56 z"/>
+    <rect x="104" y="0" width="5" height="70"/><circle cx="106" cy="76" r="9"/>
+  </g>
+
+  <!-- back skyline -->
+  <g fill="#06214f" opacity="0.5">
+    <rect x="0" y="640" width="120" height="260"/><rect x="130" y="590" width="90" height="310"/><rect x="230" y="660" width="130" height="240"/>
+    <rect x="1180" y="620" width="110" height="280"/><rect x="1300" y="570" width="100" height="330"/><rect x="1410" y="650" width="190" height="250"/>
+    <rect x="380" y="690" width="80" height="210"/><rect x="1090" y="680" width="80" height="220"/>
+  </g>
+
+  <!-- main university hall -->
+  <g>
+    <rect x="470" y="640" width="660" height="260" fill="#041a42" opacity="0.92"/>
+    <!-- pediment and columns -->
+    <polygon points="520,640 800,540 1080,640" fill="#05204f"/>
+    <polygon points="560,636 800,556 1040,636" fill="none" stroke="#f6c453" stroke-opacity="0.55" stroke-width="3"/>
+    <g fill="#0a2c66">
+      <rect x="540" y="645" width="30" height="255"/><rect x="610" y="645" width="30" height="255"/><rect x="680" y="645" width="30" height="255"/>
+      <rect x="890" y="645" width="30" height="255"/><rect x="960" y="645" width="30" height="255"/><rect x="1030" y="645" width="30" height="255"/>
+    </g>
+    <!-- entrance -->
+    <rect x="745" y="735" width="110" height="165" rx="55" fill="#f6c453" opacity="0.5"/>
+    <!-- dome and flag -->
+    <path d="M700 540 a100 100 0 0 1 200 0 z" fill="#05204f"/>
+    <path d="M730 540 a70 70 0 0 1 140 0" fill="none" stroke="#f6c453" stroke-opacity="0.45" stroke-width="3"/>
+    <rect x="797" y="400" width="6" height="50" fill="#f6c453" opacity="0.8"/>
+    <polygon points="803,402 850,415 803,430" fill="#f6c453" opacity="0.8"/>
+    <!-- steps -->
+    <rect x="450" y="880" width="700" height="20" fill="#0a2c66"/>
+  </g>
+
+  <!-- wings with lit windows -->
+  <g>
+    <rect x="130" y="700" width="330" height="200" fill="#041a42" opacity="0.95"/>
+    <rect x="130" y="700" width="330" height="200" fill="url(#win)"/>
+    <rect x="1140" y="700" width="330" height="200" fill="#041a42" opacity="0.95"/>
+    <rect x="1140" y="700" width="330" height="200" fill="url(#win)"/>
+    <rect x="30" y="760" width="110" height="140" fill="#051d4a"/><rect x="1470" y="760" width="110" height="140" fill="#051d4a"/>
+  </g>
+
+  <!-- trees -->
+  <g fill="#0b3b73" opacity="0.9">
+    <circle cx="60" cy="840" r="34"/><circle cx="105" cy="855" r="28"/><circle cx="1500" cy="840" r="34"/><circle cx="1545" cy="855" r="28"/>
+    <circle cx="470" cy="870" r="22"/><circle cx="1130" cy="870" r="22"/>
+  </g>
+  <rect x="0" y="895" width="1600" height="5" fill="#041a42"/>
+</svg>

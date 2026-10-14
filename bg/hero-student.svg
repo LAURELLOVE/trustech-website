@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" preserveAspectRatio="xMaxYMid meet">
+  <circle cx="560" cy="130" r="150" fill="#fff" opacity="0.07"/>
+  <circle cx="640" cy="40" r="70" fill="#fff" opacity="0.06"/>
+  <!-- book stack -->
+  <g>
+    <rect x="430" y="196" width="190" height="26" rx="5" fill="#f0b429"/>
+    <rect x="430" y="196" width="190" height="6" rx="3" fill="#fff" opacity="0.35"/>
+    <rect x="445" y="170" width="165" height="26" rx="5" fill="#fff" opacity="0.88"/>
+    <rect x="445" y="170" width="165" height="6" rx="3" fill="#0a2a66" opacity="0.25"/>
+    <rect x="458" y="144" width="140" height="26" rx="5" fill="#7fb0ff"/>
+    <rect x="458" y="144" width="140" height="6" rx="3" fill="#fff" opacity="0.4"/>
+  </g>
+  <!-- graduation cap on top -->
+  <g transform="translate(528 96)">
+    <polygon points="-92,0 0,-42 92,0 0,42" fill="#0a2a66" opacity="0.9" stroke="#fff" stroke-opacity="0.8" stroke-width="3"/>
+    <path d="M-52 20 v34 q52 28 104 0 v-34 L0 42 z" fill="#0a2a66" opacity="0.9" stroke="#fff" stroke-opacity="0.7" stroke-width="3"/>
+    <line x1="92" y1="0" x2="92" y2="62" stroke="#f0b429" stroke-width="4"/>
+    <circle cx="92" cy="70" r="9" fill="#f0b429"/>
+  </g>
+  <!-- laptop -->
+  <g transform="translate(290 128)" opacity="0.95">
+    <rect x="0" y="0" width="116" height="74" rx="8" fill="#0a2a66" stroke="#fff" stroke-opacity="0.75" stroke-width="3"/>
+    <rect x="9" y="9" width="98" height="56" rx="3" fill="#2f6fe0"/>
+    <polyline points="20,52 42,34 60,44 84,22 98,30" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-12 84 h140 l-12 -10 h-116 z" fill="#fff" opacity="0.85"/>
+  </g>
+  <!-- sparkles -->
+  <g fill="#f0b429"><path d="M300 52 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z" opacity="0.9"/><path d="M660 150 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z" opacity="0.8"/></g>
+</svg>
